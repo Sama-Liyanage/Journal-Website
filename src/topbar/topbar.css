@@ -11,7 +11,16 @@
 
 .topLeft,.topRight{
     flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* background-color: tomato; */
+}
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .topCenter{
     flex: 6;

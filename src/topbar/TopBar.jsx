@@ -6,9 +6,9 @@ export default function TopBar() {
   return (
     <div className="top">
         <div className='topLeft'>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-solid fa-envelope-circle-check"></i>
+            <i className="topIcon fa-brands fa-facebook"></i>
+            <i className="topIcon fa-brands fa-pinterest"></i>
+            <i className="topIcon fa-solid fa-envelope-circle-check"></i>
         </div>
 
         <div className='topCenter'>
@@ -21,7 +21,8 @@ export default function TopBar() {
             </ul>
         </div>
         <div className='topRight'>
-            <img src={profileImage}></img>
+            <img className="topImg" src={profileImage}></img>
+            <i className=" topSearchIcon fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
   )
