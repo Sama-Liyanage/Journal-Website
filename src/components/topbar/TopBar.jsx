@@ -1,5 +1,5 @@
 import "./topbar.css";
-import profileImage from "../assets/profileImage.jpg"
+import profileImage from "../../assets/profileImage.jpg"
 
 //rfc
 export default function TopBar() {

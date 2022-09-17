@@ -1,6 +1,6 @@
 import React from 'react'
 import "./post.css";
-import postImg from "../assets/postImg.jpg"
+import postImg from "../../assets/postImg.jpg"
 
 export default function Post() {
   return (

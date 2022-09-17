@@ -1,6 +1,6 @@
 import React from 'react'
 import "./sidebar.css";
-import aboutMe from "../assets/aboutMe.jpg"
+import aboutMe from "../../assets/aboutMe.jpg"
 
 export default function sideBar() {
   return (
