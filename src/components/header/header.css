@@ -1,8 +1,8 @@
-.header{
+.header {
     margin-top: 60px;
 }
 
-.headerTitles{
+.headerTitles {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,17 +10,18 @@
     color: #444;
 }
 
-.headerTitleSm{
+.headerTitleSm {
     position: absolute;
     top: 18%;
     font-size: 20px;
 }
 
-.headerTitleLg{
+.headerTitleLg {
     position: absolute;
     top: 20%;
     font-size: 100px;
 }
+
 .headerImg {
     width: 100%;
     height: 495px;
