@@ -4,11 +4,12 @@ import "./login.css";
 export default function Login() {
     return (
         <div className="login">
+            <span className="loginTitle">LogIn</span>
             <form className="loginForm">
                 <label>E mail</label>
-                <input type="text" placeholder="Enter your Email" />
+                <input type="text" className="loginInput" placeholder="Enter your Email" />
                 <label>Password</label>
-                <input type="password" placeholder="Enter your password" />
+                <input type="password" className="loginInput" placeholder="Enter your password" />
 
                 <button className="loginButton">LogIn</button>
             </form>
