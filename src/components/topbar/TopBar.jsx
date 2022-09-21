@@ -4,7 +4,7 @@ import profileImage from "../../assets/profileImage.jpg"
 
 //rfc
 export default function TopBar() {
-    const user=false;
+    const user = false;
     return (
         <div className="top">
             <div className='topLeft'>
@@ -19,13 +19,13 @@ export default function TopBar() {
                         <Link className="link" to="/">Home</Link>
                     </li>
                     <li className="topListItem">
-                    <Link className="link" to="/">ABOUT</Link>
+                        <Link className="link" to="/">ABOUT</Link>
                     </li>
                     <li className="topListItem">
-                    <Link className="link" to="/">CONTACT</Link>
+                        <Link className="link" to="/">CONTACT</Link>
                     </li>
                     <li className="topListItem">
-                    <Link className="link" to="/write">WRITE</Link>
+                        <Link className="link" to="/write">WRITE</Link>
                     </li>
                     <li className="topListItem">
                         {user && "LOGOUT"}
@@ -34,20 +34,20 @@ export default function TopBar() {
             </div>
             <div className='topRight'>
                 {
-                    user ?(
+                    user ? (
                         <img className="topImg" src={profileImage}></img>
 
                     ) : (
                         <ul className="topList">
                             <li className="topListItem">
-                        <Link className="link" to="/login">LOGIN</Link></li>
-                        <li className="topListItem">
-                        <Link className="link" to="/register">REGISTER</Link></li>
+                                <Link className="link" to="/login">LOGIN</Link></li>
+                            <li className="topListItem">
+                                <Link className="link" to="/register">REGISTER</Link></li>
                         </ul>
-                       
+
                     )
                 }
-              
+
                 <i className=" topSearchIcon fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
